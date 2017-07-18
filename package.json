@@ -1,0 +1,35 @@
+{
+  "name": "admin-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard to control a chatbot activity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrefeitoBot/admin-dashboard.git"
+  },
+  "keywords": [
+    "chatbot",
+    "admin",
+    "dashboard",
+    "chatbot",
+    "analytics",
+    "chatbot",
+    "broadcasting"
+  ],
+  "author": "Prefeito Bot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrefeitoBot/admin-dashboard/issues"
+  },
+  "homepage": "https://github.com/PrefeitoBot/admin-dashboard#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.1"
+  }
+}

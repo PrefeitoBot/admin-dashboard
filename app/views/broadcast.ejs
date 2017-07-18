@@ -4,8 +4,73 @@
 			Broadcast - Admin Dashboard
 		</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/broadcast.css">
 	</head>
-	<body>
-		<h1>It works!</h1>
+	<body class="broadcast">
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<img id="main_logo" src="./images/prefeitobot.jpg" alt="Prefeito Bot Admin">
+				<h1>Envie uma mensagem para os usuários</h1>
+				<form action="/broadcast" method="post" id="broadForm">
+					<input required type="text" name="message" class="form-control" placeholder="Digite a mensagem aqui">
+					<div class="row text-left">
+						<div class="col-md-4">
+							<div class="radio">
+								<label><input type="radio" name="sex" value="masculino"> Masculino</label>
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="sex" value="feminino"> Feminino</label>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<strong>Idade:</strong>
+							<input name="idade_min" type="number" min="0" max="120" class="form-control" placeholder="Mínimo de...">
+							<input name="idade_max" type="number" min="0" max="120" class="form-control" placeholder="Máximo de...">
+						</div>
+						<div class="col-md-4">
+							<strong>Etnia:</strong>
+							<div class="checkbox">
+								<label><input type="checkbox" name="etnia" value="negro"> Negro</label>
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" name="etnia" value="pardo"> Pardo</label>
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" name="etnia" value="caucasiano"> Caucasiano</label>
+							</div>
+						</div>
+					</div>
+				</form>	
+				<div class="row buttons">
+					<div class="col-md-12">
+						<button id="enviar" class="btn btn-lg btn-success" data-toggle="modal" data-target="#confirmModal">Enviar</button>
+						<button type="reset" class="btn btn-lg btn-danger">Reset</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="confirmModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Verifique os dados abaixo antes de enviar a mensagem</h4>
+					</div>
+					<div class="modal-body" id="modalContent">
+						
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success" id="btnConfirmar">Confirmar</button>
+						<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./js/jquery-3.2.1.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/broadcast.js"></script>
 	</body>
 </html>

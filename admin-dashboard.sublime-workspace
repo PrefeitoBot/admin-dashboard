@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"idade",
+				"idade_max"
+			],
+			[
 				"apelido",
 				"apelido_atualizado_nos_clientes"
 			],
@@ -67,20 +71,32 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 112.0,
-		"last_filter": "install",
+		"height": 323.0,
+		"last_filter": "sass",
 		"selected_items":
 		[
 			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss",
+				"Set Syntax: HTML"
 			],
 			[
 				"ss htm",
 				"Set Syntax: HTML"
 			]
 		],
-		"width": 449.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -100,22 +116,39 @@
 	},
 	"expanded_folders":
 	[
-		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard"
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/controllers",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/routes",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/config"
 	],
 	"file_history":
 	[
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/public/scss/broadcast.scss",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/.gitignore",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/controllers/broadcast.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/views/broadcast.ejs",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/public/js/broadcast.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/routes/broadcast.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/package.json",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/views/index.ejs",
+		"/home/lucas/Desktop/curso_node/multiroom_chat/app/controllers/index.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/controllers/index.js",
+		"/home/lucas/Desktop/curso_node/multiroom_chat/app/routes/index.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app/routes/index.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/app.js",
+		"/home/lucas/Projetos/Prefeito Bot/admin-dashboard/config/server.js",
+		"/home/lucas/Desktop/curso_node/multiroom_chat/config/server.js",
+		"/home/lucas/Desktop/curso_node/multiroom_chat/app.js",
+		"/home/lucas/Desktop/curso_node/multiroom_chat/package.json",
 		"/home/lucas/Projetos/youtube-bulk-downloader/README.md",
 		"/home/lucas/Projetos/youtube-bulk-downloader/youtube_downloader.py",
 		"/home/lucas/Desktop/playlist/youtube_downloader.py",
 		"/home/lucas/Desktop/youtube_downloader.py",
-		"/home/lucas/Desktop/curso_node/multiroom_chat/app.js",
 		"/home/lucas/Desktop/curso_node/multiroom_chat/app/controllers/chat.js",
 		"/home/lucas/Desktop/curso_node/multiroom_chat/app/views/chat.ejs",
-		"/home/lucas/Desktop/curso_node/multiroom_chat/app/controllers/index.js",
 		"/home/lucas/Desktop/curso_node/multiroom_chat/app/views/index.ejs",
-		"/home/lucas/Desktop/curso_node/multiroom_chat/app/routes/index.js",
 		"/home/lucas/Desktop/curso_node/multiroom_chat/app/routes/chat.js",
-		"/home/lucas/Desktop/curso_node/multiroom_chat/config/server.js",
 		"/home/lucas/Desktop/curso_node/app/views/noticias/noticias.ejs",
 		"/home/lucas/Desktop/curso_node/app/controllers/noticias.js",
 		"/home/lucas/Desktop/curso_node/app/models/NoticiasDAO.js",
@@ -143,7 +176,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -157,6 +190,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"));",
+			"console.log(",
+			"director",
 			"Noticias."
 		],
 		"highlight": true,
@@ -165,6 +201,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			");",
+			"",
 			"NoticiasDAO."
 		],
 		"reverse": false,
@@ -224,7 +262,7 @@
 	"project": "admin-dashboard.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

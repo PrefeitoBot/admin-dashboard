@@ -1,0 +1,10 @@
+body.broadcast {
+  background-color: #eee; }
+  body.broadcast #main_logo {
+    max-width: 75%;
+    display: block;
+    margin: 0 auto 25px; }
+  body.broadcast h1 {
+    font-size: 2.1em; }
+
+/*# sourceMappingURL=broadcast.css.map */
